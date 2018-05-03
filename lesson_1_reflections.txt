@@ -1,0 +1,14 @@
+When I have a logical unit of work done.
+
+Git wants users to create saves manually. So, git only saves when it is asked to save. This ensures that each save that is created is a meaningful one.
+
+A good rule of thumb is to make one commit per logical change.
+
+Anything that requires change in another documment to make logical sense or work as a whole should be tracked in tandem or togehter :)
+
+A collection of files in git is called a repository.
+
+A commit is a snapshot of everyfile in the repository.
+
+git diff 71d52709ddc4066e7a79a1d0a412e43429a0cdeb 547f4171a82ec6429d002c1acef357aec41d3f17
+
